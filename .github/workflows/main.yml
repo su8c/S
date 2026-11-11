@@ -1,4 +1,6 @@
-name: s
+
+
+name: w
 on:
   workflow_dispatch:
     inputs:
@@ -51,18 +53,3 @@ jobs:
                 Write-Host "🟢 Windows RDP Active: $i / $totalMinutes minutes"
             }
         }
-```
-
----
-
-### 🔑 Default Credentials:
-* **Username:** `runneradmin`
-* **Password:** `Password123!`
-* **IP Address:** GitHub Actions me `Install & Connect Tailscale` step ke andar dikhta hai (e.g. `100.x.x.x`).
-
----
-
-### 🔗 Direct Useful Links:
-1. **GitHub Actions Tab:** https://github.com/workindiammm-lgtm/rdp-/actions
-2. **Tailscale Keys Page:** https://login.tailscale.com/admin/settings/keys
-3. **Tailscale Machines:** https://login.tailscale.com/admin/machines
